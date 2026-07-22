@@ -17,7 +17,10 @@ def load_categories(df, cur):
     print(f"Inserted {len(categories)} categories")
 
 def load_locations(df, cur):
-    locations = df[["plz", "ort", "strasse"]].drop_duplicates().values.tolist()
+    locations_df = df[["plz", "ort", "strasse"]].copy()
+    locations_df["plz"] = locations_df["plz"].astype(str)
+    locations_df = locations_df.fillna("").drop_duplicates()
+    locations = locations_df.values.tolist()
     execute_values(
         cur,
         "INSERT INTO locations (plz, ort, strasse) VALUES %s ON CONFLICT DO NOTHING",
@@ -37,7 +40,11 @@ def load_jobs(df, cur):
     job_rows = []
     for _, row in df.iterrows():
         cat_id = category_map.get(row["hauptberuf"])
-        loc_key = (row["plz"], row["ort"], row["strasse"])
+        loc_key = (
+            str(row["plz"]) if pd.notna(row["plz"]) else "",
+            row["ort"] if pd.notna(row["ort"]) else "",
+            row["strasse"] if pd.notna(row["strasse"]) else ""
+        )
         loc_id = location_map.get(loc_key)
         job_rows.append((
             row["referenznummer"],
