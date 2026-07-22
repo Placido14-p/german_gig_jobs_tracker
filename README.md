@@ -54,3 +54,7 @@ Python (requests, pandas, psycopg2), PostgreSQL, SQL
 ## Data source
 
 Bundesagentur fur Arbeit Jobsuche API (https://jobsuche.api.bund.dev/) - Germany's official federal employment agency job search service.
+
+## Automation
+
+The full pipeline (extract, clean, load) is wrapped in scripts/run_pipeline.sh and scheduled via cron to run daily at 8 AM, keeping the database up to date automatically. Logs are written to logs/pipeline.log.
