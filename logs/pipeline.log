@@ -1,0 +1,129 @@
+=== Pipeline run: Thu Jul 23 00:51:55 CEST 2026 ===
+Fetching jobs for: Fahrer
+  'Fahrer' - page 1: got 25 jobs (total so far: 25)
+  'Fahrer' - page 2: got 25 jobs (total so far: 50)
+  'Fahrer' - page 3: got 25 jobs (total so far: 75)
+  'Fahrer' - page 4: got 25 jobs (total so far: 100)
+  'Fahrer' - page 5: got 25 jobs (total so far: 125)
+  'Fahrer' - page 6: got 25 jobs (total so far: 150)
+  'Fahrer' - page 7: got 25 jobs (total so far: 175)
+  'Fahrer' - page 8: got 25 jobs (total so far: 200)
+  'Fahrer' - page 9: got 25 jobs (total so far: 225)
+  'Fahrer' - page 10: got 25 jobs (total so far: 250)
+  'Fahrer' - page 11: got 25 jobs (total so far: 275)
+  'Fahrer' - page 12: got 25 jobs (total so far: 300)
+  'Fahrer' - page 13: got 25 jobs (total so far: 325)
+  'Fahrer' - page 14: got 25 jobs (total so far: 350)
+  'Fahrer' - page 15: got 25 jobs (total so far: 375)
+  'Fahrer' - page 16: got 25 jobs (total so far: 400)
+  'Fahrer' - page 17: got 25 jobs (total so far: 425)
+  'Fahrer' - page 18: got 25 jobs (total so far: 450)
+  'Fahrer' - page 19: got 25 jobs (total so far: 475)
+  'Fahrer' - page 20: got 25 jobs (total so far: 500)
+  'Fahrer' - page 21: got 25 jobs (total so far: 525)
+  'Fahrer' - page 22: got 25 jobs (total so far: 550)
+  'Fahrer' - page 23: got 25 jobs (total so far: 575)
+  'Fahrer' - page 24: got 25 jobs (total so far: 600)
+  'Fahrer' - page 25: got 25 jobs (total so far: 625)
+  'Fahrer' - page 26: got 25 jobs (total so far: 650)
+  'Fahrer' - page 27: got 25 jobs (total so far: 675)
+  'Fahrer' - page 28: got 25 jobs (total so far: 700)
+  'Fahrer' - page 29: got 25 jobs (total so far: 725)
+  'Fahrer' - page 30: got 25 jobs (total so far: 750)
+  'Fahrer' - page 31: got 25 jobs (total so far: 775)
+  'Fahrer' - page 32: got 25 jobs (total so far: 800)
+  'Fahrer' - page 33: got 25 jobs (total so far: 825)
+  'Fahrer' - page 34: got 25 jobs (total so far: 850)
+  'Fahrer' - page 35: got 25 jobs (total so far: 875)
+  'Fahrer' - page 36: got 25 jobs (total so far: 900)
+  'Fahrer' - page 37: got 25 jobs (total so far: 925)
+  'Fahrer' - page 38: got 25 jobs (total so far: 950)
+  'Fahrer' - page 39: got 25 jobs (total so far: 975)
+  'Fahrer' - page 40: got 25 jobs (total so far: 1000)
+  'Fahrer' - page 41: got 25 jobs (total so far: 1025)
+  'Fahrer' - page 42: got 6 jobs (total so far: 1031)
+Saved 1031 jobs to data/raw/Fahrer_Berlin_20260723_005155.json
+
+Fetching jobs for: Lieferbote
+Saved 0 jobs to data/raw/Lieferbote_Berlin_20260723_005155.json
+
+Fetching jobs for: Kurier
+  'Kurier' - page 1: got 25 jobs (total so far: 25)
+  'Kurier' - page 2: got 25 jobs (total so far: 50)
+  'Kurier' - page 3: got 25 jobs (total so far: 75)
+  'Kurier' - page 4: got 25 jobs (total so far: 100)
+  'Kurier' - page 5: got 25 jobs (total so far: 125)
+  'Kurier' - page 6: got 25 jobs (total so far: 150)
+  'Kurier' - page 7: got 19 jobs (total so far: 169)
+Saved 169 jobs to data/raw/Kurier_Berlin_20260723_005155.json
+
+Fetching jobs for: Lagerhelfer
+  'Lagerhelfer' - page 1: got 25 jobs (total so far: 25)
+  'Lagerhelfer' - page 2: got 25 jobs (total so far: 50)
+  'Lagerhelfer' - page 3: got 25 jobs (total so far: 75)
+  'Lagerhelfer' - page 4: got 25 jobs (total so far: 100)
+  'Lagerhelfer' - page 5: got 25 jobs (total so far: 125)
+  'Lagerhelfer' - page 6: got 25 jobs (total so far: 150)
+  'Lagerhelfer' - page 7: got 25 jobs (total so far: 175)
+  'Lagerhelfer' - page 8: got 25 jobs (total so far: 200)
+  'Lagerhelfer' - page 9: got 25 jobs (total so far: 225)
+  'Lagerhelfer' - page 10: got 25 jobs (total so far: 250)
+  'Lagerhelfer' - page 11: got 25 jobs (total so far: 275)
+  'Lagerhelfer' - page 12: got 25 jobs (total so far: 300)
+  'Lagerhelfer' - page 13: got 25 jobs (total so far: 325)
+  'Lagerhelfer' - page 14: got 25 jobs (total so far: 350)
+  'Lagerhelfer' - page 15: got 25 jobs (total so far: 375)
+Saved 375 jobs to data/raw/Lagerhelfer_Berlin_20260723_005155.json
+
+Fetching jobs for: Reinigungskraft
+  'Reinigungskraft' - page 1: got 25 jobs (total so far: 25)
+  'Reinigungskraft' - page 2: got 25 jobs (total so far: 50)
+  'Reinigungskraft' - page 3: got 25 jobs (total so far: 75)
+  'Reinigungskraft' - page 4: got 25 jobs (total so far: 100)
+  'Reinigungskraft' - page 5: got 25 jobs (total so far: 125)
+  'Reinigungskraft' - page 6: got 25 jobs (total so far: 150)
+  'Reinigungskraft' - page 7: got 25 jobs (total so far: 175)
+  'Reinigungskraft' - page 8: got 25 jobs (total so far: 200)
+  'Reinigungskraft' - page 9: got 25 jobs (total so far: 225)
+  'Reinigungskraft' - page 10: got 25 jobs (total so far: 250)
+  'Reinigungskraft' - page 11: got 25 jobs (total so far: 275)
+  'Reinigungskraft' - page 12: got 25 jobs (total so far: 300)
+  'Reinigungskraft' - page 13: got 25 jobs (total so far: 325)
+  'Reinigungskraft' - page 14: got 25 jobs (total so far: 350)
+  'Reinigungskraft' - page 15: got 25 jobs (total so far: 375)
+  'Reinigungskraft' - page 16: got 25 jobs (total so far: 400)
+  'Reinigungskraft' - page 17: got 25 jobs (total so far: 425)
+  'Reinigungskraft' - page 18: got 25 jobs (total so far: 450)
+  'Reinigungskraft' - page 19: got 25 jobs (total so far: 475)
+  'Reinigungskraft' - page 20: got 25 jobs (total so far: 500)
+  'Reinigungskraft' - page 21: got 25 jobs (total so far: 525)
+  'Reinigungskraft' - page 22: got 25 jobs (total so far: 550)
+  'Reinigungskraft' - page 23: got 25 jobs (total so far: 575)
+  'Reinigungskraft' - page 24: got 7 jobs (total so far: 582)
+Saved 582 jobs to data/raw/Reinigungskraft_Berlin_20260723_005155.json
+
+Found 15 raw files to process
+Total raw job records loaded: 4321
+Rows before dedup: 4321
+Rows after dedup: 2134
+Saved cleaned data to data/clean/gig_jobs_berlin.csv
+             referenznummer  ... quereinstieg_geeignet
+0       12016-10004848709-S  ...                 False
+1  15555-JK51L0YK55PA4HW8-S  ...                 False
+2       12016-10004731690-S  ...                 False
+3        11119-4860652741-S  ...                 False
+4        11119-4898509704-S  ...                 False
+
+[5 rows x 16 columns]
+DROP TABLE
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+Loaded 2134 rows from CSV
+Inserted 83 categories
+Inserted 589 locations
+Inserted 2134 jobs
+Done!
+=== Pipeline run complete ===
