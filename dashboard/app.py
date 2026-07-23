@@ -41,12 +41,17 @@ st.plotly_chart(fig1, use_container_width=True)
 st.subheader("Jobs by Postal Code")
 location_counts = df[df["plz"] != ""]["plz"].value_counts().head(10).reset_index()
 location_counts.columns = ["plz", "count"]
+location_counts = location_counts.sort_values("count", ascending=False)
 fig2 = px.bar(location_counts, x="plz", y="count")
+fig2.update_xaxes(type="category")
 st.plotly_chart(fig2, use_container_width=True)
 
 st.subheader("Average Hourly Pay by Category")
 hourly = df[df["verguetungsangabe"] == "STUNDENLOHN"]
-pay_by_cat = hourly.groupby("category_name")["festgehalt"].mean().dropna().sort_values(ascending=False).head(10).reset_index()
+pay_grouped = hourly.groupby("category_name")["festgehalt"].agg(["mean", "count"]).dropna()
+pay_grouped = pay_grouped[pay_grouped["count"] > 5]
+pay_by_cat = pay_grouped["mean"].sort_values(ascending=False).head(10).reset_index()
+pay_by_cat.columns = ["category_name", "festgehalt"]
 fig3 = px.bar(pay_by_cat, x="category_name", y="festgehalt", labels={"festgehalt": "Avg Hourly Pay (EUR)"})
 st.plotly_chart(fig3, use_container_width=True)
 
