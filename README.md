@@ -62,3 +62,11 @@ The full pipeline (extract, clean, load) is wrapped in scripts/run_pipeline.sh a
 ## Dashboard
 
 An interactive Streamlit dashboard (dashboard/app.py) visualizes the analysis: job counts by category and postal code, average hourly pay by category, and posting trends over time. Run it locally with: streamlit run dashboard/app.py
+
+## Dashboard Screenshots
+
+![Dashboard - Overview and Category Breakdown](assets/dashboard-1.png)
+
+![Dashboard - Postal Code and Pay Analysis](assets/dashboard-2.png)
+
+![Dashboard - Posting Trends Over Time](assets/dashboard-3.png)
