@@ -58,3 +58,7 @@ Bundesagentur fur Arbeit Jobsuche API (https://jobsuche.api.bund.dev/) - Germany
 ## Automation
 
 The full pipeline (extract, clean, load) is wrapped in scripts/run_pipeline.sh and scheduled via cron to run daily at 8 AM, keeping the database up to date automatically. Logs are written to logs/pipeline.log.
+
+## Dashboard
+
+An interactive Streamlit dashboard (dashboard/app.py) visualizes the analysis: job counts by category and postal code, average hourly pay by category, and posting trends over time. Run it locally with: streamlit run dashboard/app.py
